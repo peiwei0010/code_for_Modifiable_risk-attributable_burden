@@ -94,7 +94,7 @@ P1<-Heatmap(data1,
             column_title_rot = 0,
             cluster_rows = FALSE,
             cluster_columns = FALSE,
-            rect_gp = gpar(col = "black"),#小方块颜色
+            rect_gp = gpar(col = "black"),
             col= col_fun,
             
             row_names_side = "left",
