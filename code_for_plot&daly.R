@@ -14,7 +14,6 @@ pafallfemale <- t(read.csv("pafallfemale.csv", row.names=1))
 pafallmale <- t(read.csv("pafallmale.csv", row.names=1))
 pafallfemale<-as.data.frame(cbind(pafallfemale,rownames(pafallfemale)))
 pafallmale<-as.data.frame(cbind(pafallmale,rownames(pafallmale)))
-#修改名字以备合并
 pafallfemale$group<-car::recode(pafallfemale$V10,"'paf_lung_all'='Lung cancer combined';'paf_bre_all'='Breast cancer combined';'paf_cer_all'='Cervical cancer combined';'paf_leu_all'='Leukemia combined';'paf_pan_all'='Pancreatic cancer combined'; 'paf_liv_all'='Liver cancer combined';'paf_gas_all'='Gastric cancer combined';'paf_crc_all'='Colorectal cancer combined';'paf_eso_all'='Esophageal cancer combined';'paf_pro_all'='Prostate cancer combined';'paf_lym_all'='Lymphoma combined'; 'paf_ova_all'='Ovarian cancer combined'")
 pafallmale$group<-car::recode(pafallmale$V10,"'paf_lung_all'='Lung cancer combined';'paf_bre_all'='Breast cancer combined';'paf_cer_all'='Cervical cancer combined';'paf_leu_all'='Leukemia combined';'paf_pan_all'='Pancreatic cancer combined'; 'paf_liv_all'='Liver cancer combined';'paf_gas_all'='Gastric cancer combined';'paf_crc_all'='Colorectal cancer combined';'paf_eso_all'='Esophageal cancer combined';'paf_pro_all'='Prostate cancer combined';'paf_lym_all'='Lymphoma combined'; 'paf_ova_all'='Ovarian cancer combined'")
 
