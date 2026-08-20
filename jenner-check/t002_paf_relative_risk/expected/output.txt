@@ -1,0 +1,28 @@
+                                 PAF by cancer site (adapted from 2.paf_calculate.sas)
+
+  Obs              group  year        sum_rr  paf_pct
+    1        Lung cancer  2012   0.315638757  24.0
+    2  Colorectal cancer  2012  0.0452897348   4.3
+
+                                 PAF by cancer site (adapted from 2.paf_calculate.sas)
+
+                                                  The MEANS Procedure
+
+                                             Analysis Variable : RRcancer
+
+                                         N
+                  group                Obs           Mean        Std Dev        Minimum        Maximum
+                  ------------------------------------------------------------------------------------
+                  Lung cancer            6      2.0521292      0.0259790      2.0281886      2.0999208
+                  Colorectal cancer      6      1.1509658      0.0064899      1.1409942      1.1604896
+                  ------------------------------------------------------------------------------------
+
+                                               Analysis Variable : p_rr
+
+                                         N
+                  group                Obs           Mean        Std Dev        Minimum        Maximum
+                  ------------------------------------------------------------------------------------
+                  Lung cancer            6      0.0526065      0.0012989      0.0514094      0.0549960
+                  Colorectal cancer      6      0.0075483      0.0003245      0.0070497      0.0080245
+                  ------------------------------------------------------------------------------------
+

@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_paf_relative_risk",
+  "source_file": "2.paf_calculate.sas",
+  "source_blob_sha": "a5554f8b221b5c80d13b0e34da19821277ee03af",
+  "source_commit": "87f63d465f4006f434760c1990453c979217a05b",
+  "notes": "2.paf_calculate.sas computes population-attributable-fraction (PAF) values per cancer site using RR = exp((exposure - reference) * beta) and PAF = put(sum_RR / (sum_RR + 1) * 100, 4.1), with relative-risk coefficients imported from a local RRcancerpw.xlsx and CHNS exposure summaries from a private cnhsdata libname. Neither is available outside the authors' environment, so this bundle keeps their exact PAF/RR formula and BY-group accumulation pattern, applied to a small mock RR coefficient table plus an inline sample of 12 real rows (lung/colorectal cancer, 2007-2012) lifted from the repo's own 5.male_all.csv."
+}
