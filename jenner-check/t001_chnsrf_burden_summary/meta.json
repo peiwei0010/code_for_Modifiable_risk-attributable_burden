@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_chnsrf_burden_summary",
+  "source_file": "1.code_for_chnsRF.sas",
+  "source_blob_sha": "9aea7239bc51d9fd89fdd5725e21db03b002edb6",
+  "source_commit": "87f63d465f4006f434760c1990453c979217a05b",
+  "notes": "1.code_for_chnsRF.sas builds PROC FORMAT value labels and PROC FREQ/MEANS summaries over CHNS survey extracts read from a private cnhsdata libname. That libname is unavailable outside the authors' environment, so this bundle keeps their format-and-summarize flow and runs it against an inline sample of 18 real rows (breast/lung/liver cancer, 2007-2012) lifted from the repo's own 4.female_all.csv, instead of the unavailable libname read."
+}
